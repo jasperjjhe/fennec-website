@@ -22,6 +22,8 @@ const operationsLinks = [
 
 const companyLinks = [
   { name: 'The shift', href: '#roles' },
+  { name: 'Team', href: '#team' },
+  { name: 'Contact', href: '#contact' },
   { name: 'Inside Fennec', href: '#proof' },
   { name: 'Early access', href: '#waitlist' },
   { name: 'Back to top', href: '#top' },

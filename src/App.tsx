@@ -33,6 +33,7 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Footer } from './sections/Footer'
+import { TeamContact } from './sections/TeamContact'
 
 const demoHref = 'https://cal.com/vishaldesh/product-demo'
 const image = (fileName: string) => `./images/${fileName}`
@@ -40,7 +41,6 @@ const image = (fileName: string) => `./images/${fileName}`
 type ProductModule = {
   title: string
   description: string
-  href: string
   icon: LucideIcon
 }
 
@@ -58,103 +58,86 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Floor plan editor',
         description: 'Design, version and activate floor layouts with live minimums and VIP zones.',
-        href: '#platform',
         icon: Layout,
       },
       {
         title: 'Live event ops',
         description: 'Guestlists, table statuses and seat assignments on one synced canvas.',
-        href: '#platform',
         icon: Activity,
       },
       {
         title: 'Bottle service',
         description: 'Packages, deposits, runners and a complete tableside order history.',
-        href: '#platform',
         icon: Wine,
       },
       {
         title: 'Guestlist & ticketing',
         description: 'Sell tickets, import lists and check guests in with an offline-ready scanner.',
-        href: '#platform',
         icon: TicketPercent,
       },
       {
         title: 'Promoter portal',
         description: 'Trackable links, guestlists, deposits and live commission tracking.',
-        href: '#platform',
         icon: Share2,
       },
       {
         title: 'Guest CRM',
         description: 'Unified profiles with lifetime spend, preferences and smart segments.',
-        href: '#platform',
         icon: Heart,
       },
       {
         title: 'Automations & comms',
         description: 'Trigger SMS, WhatsApp and email flows from any signal in your venue.',
-        href: '#platform',
         icon: MessageSquare,
       },
       {
         title: 'Reports & analytics',
         description: 'Revenue, attendance, table turnover and promoter performance, exportable.',
-        href: '#platform',
         icon: BarChart3,
       },
       {
         title: 'Coat Check Management',
         description: 'QR receipts, photo capture and per-guest claim history for a clean rack.',
-        href: '#platform',
         icon: Package,
       },
       {
         title: 'Bar Management',
         description: 'Bar-by-bar velocity, staffing and live ticket queues in one console.',
-        href: '#platform',
         icon: Building2,
       },
       {
         title: 'Host Events',
         description: 'Build the event, set hold strategies and run the room from one war room.',
-        href: '#platform',
         icon: Calendar,
       },
       {
         title: 'Guest Management',
         description: 'RSVPs, comps, plus-ones and birthdays with full history attached.',
-        href: '#platform',
         icon: Users,
       },
       {
         title: 'Staff Management',
         description: 'Schedules, clock-in, role permissions and tip distribution on one roster.',
-        href: '#platform',
         icon: UserCog,
       },
       {
         title: 'Universal Loyalty',
         description: 'Tiers, points and perks that work across every floor and venue in your group.',
-        href: '#platform',
         icon: Star,
       },
       {
         title: 'POS integration',
         description: 'Square, Toast and Lightspeed synced with tickets, tabs and tips.',
-        href: '#platform',
         icon: CreditCard,
       },
       {
         title: 'Table Management',
         description: 'Live status, spend, server assignments and turn-time tracking in one tap.',
-        href: '#platform',
         icon: Layout,
       },
       {
         title: 'Ticketing integrations',
         description: 'Eventbrite, Showpass, Ora, TicketWeb, POSH, Flite City and Tixr.',
-        href: '#platform',
         icon: Globe,
       },
     ],
@@ -166,31 +149,26 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Laylo audience sync',
         description: 'Mirror consented guests, RSVPs and opt-outs between Laylo and Fennec.',
-        href: '#platform',
         icon: Share2,
       },
       {
         title: 'Meta Pixel & marketing analytics',
         description: 'See which ad filled the room with funnel, spend and return per event.',
-        href: '#platform',
         icon: Target,
       },
       {
         title: 'Auto Social Media',
         description: 'Schedule Instagram, TikTok and X posts from the event calendar.',
-        href: '#platform',
         icon: Zap,
       },
       {
         title: 'Event Poster Designer',
         description: 'Generate on-brand flyers and stories ready for print, social and Wallet.',
-        href: '#platform',
         icon: Sparkles,
       },
       {
         title: 'Drink Campaigns',
         description: 'Push time-boxed promos to staff, menus and social in one shot.',
-        href: '#platform',
         icon: Percent,
       },
     ],
@@ -202,31 +180,26 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Inventory Dashboard',
         description: 'Live counts, par levels, reorder points and waste flags across every bar.',
-        href: '#platform',
         icon: Package,
       },
       {
         title: 'Live Menu Management',
         description: 'Edit once, push everywhere and auto-86 items as stock runs out.',
-        href: '#platform',
         icon: Wallet,
       },
       {
         title: 'Stock Room Inventory',
         description: 'Scan-to-count, vendor PO history and variance reconciliation on your phone.',
-        href: '#platform',
         icon: Search,
       },
       {
         title: 'In-Bar Inventory',
         description: 'Running bottle and keg counts with one-tap transfers and a full audit trail.',
-        href: '#platform',
         icon: Building2,
       },
       {
         title: 'Revenue Loss Calculator',
         description: 'Reconcile pours versus sales and dollarise every variance you find.',
-        href: '#platform',
         icon: BarChart3,
       },
     ],
@@ -237,19 +210,16 @@ const guestModules: ProductModule[] = [
   {
     title: 'Discover Events',
     description: 'A guest-facing feed of every event across the Fennec network.',
-    href: '#guests',
     icon: Globe,
   },
   {
     title: 'Live Ordering',
     description: 'Guests scan their table, browse the live menu and order straight to their tab.',
-    href: '#guests',
     icon: Wine,
   },
   {
     title: 'The Fennec Pass',
     description: 'One nightlife identity for tickets, tables, loyalty tiers and perks.',
-    href: '#guests',
     icon: Wallet,
   },
 ]
@@ -362,7 +332,6 @@ const gallery = [
     description: 'Table reservations, live status, arrivals and revenue without switching tools.',
     image: image('hero-tables-live.jpg'),
     alt: 'Fennec live event table dashboard screenshot',
-    href: '#proof',
   },
   {
     label: 'Guestlist & ticketing',
@@ -370,7 +339,6 @@ const gallery = [
     description: 'Tickets, guestlists and offline-ready check-in built for the rush.',
     image: image('hero-ticketing.jpg'),
     alt: 'Fennec ticketing and check-in dashboard screenshot',
-    href: '#proof',
   },
   {
     label: 'Promoters',
@@ -378,7 +346,6 @@ const gallery = [
     description: 'Personal links, commissions and guestlists with nothing to reconcile by hand.',
     image: image('hero-promoters.jpg'),
     alt: 'Fennec promoter portal screenshot',
-    href: '#proof',
   },
   {
     label: 'Inventory',
@@ -386,7 +353,6 @@ const gallery = [
     description: 'Counts, reorder points and variance flags across every bar and storage room.',
     image: image('hero-inventory.jpg'),
     alt: 'Fennec inventory dashboard screenshot',
-    href: '#proof',
   },
   {
     label: 'Guest CRM',
@@ -394,7 +360,6 @@ const gallery = [
     description: 'Spend history, preferences and segments that stay connected to every visit.',
     image: image('hero-crm.jpg'),
     alt: 'Fennec guest CRM screenshot',
-    href: '#proof',
   },
   {
     label: 'Ferry AI',
@@ -402,7 +367,6 @@ const gallery = [
     description: 'A command layer for floor ops, guests, campaigns, inventory and service.',
     image: image('hero-ferry.jpg'),
     alt: 'Fennec Ferry AI product screenshot',
-    href: '#ferry',
   },
 ]
 
@@ -414,17 +378,12 @@ const ferryAgents = [
   { name: 'Events', role: 'Ops & live night', description: 'Runs the live floor — tables, guestlist and door flow.', image: image('ferry-agent-red.png') },
 ]
 
-function ExternalArrow() {
-  return <ArrowUpRight size={15} strokeWidth={1.8} aria-hidden="true" />
-}
-
 function Screenshot({
   image,
   alt,
   label,
   title,
   description,
-  href,
   className = '',
 }: {
   image: string
@@ -432,7 +391,6 @@ function Screenshot({
   label?: string
   title?: string
   description?: string
-  href?: string
   className?: string
 }) {
   const content = (
@@ -446,7 +404,6 @@ function Screenshot({
           {label && <span className="eyebrow eyebrow-small">{label}</span>}
           {title && <h3>{title}</h3>}
           {description && <p>{description}</p>}
-          {href && <span className="text-link">Explore module <ExternalArrow /></span>}
         </figcaption>
       )}
     </>
@@ -454,11 +411,7 @@ function Screenshot({
 
   return (
     <figure className={`screenshot-card ${className}`}>
-      {href ? (
-        <a href={href} className="screenshot-link">
-          {content}
-        </a>
-      ) : content}
+      {content}
     </figure>
   )
 }
@@ -496,8 +449,9 @@ export default function App() {
             <a href="#integrations">Integrations</a>
             <a href="#proof">Screenshots</a>
             <a href="#roles">The shift</a>
+            <a href="#team">Team</a>
             <a href="#ferry">Ferry AI</a>
-            <a href="#platform">All modules <ArrowRight size={15} /></a>
+            <a href="#contact">Contact</a>
           </nav>
 
           <div className="header-actions">
@@ -516,8 +470,9 @@ export default function App() {
             <a href="#integrations" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Integrations</a>
             <a href="#proof" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Screenshots</a>
             <a href="#roles" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>The shift</a>
+            <a href="#team" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Team</a>
             <a href="#ferry" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Ferry AI</a>
-            <a href="#platform" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>All modules <ArrowRight size={15} /></a>
+            <a href="#contact" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Contact</a>
             <a href="#waitlist" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Join the waitlist</a>
             <a className="button button-light" href={demoHref} target="_blank" rel="noopener noreferrer" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Book a demo <ArrowRight size={15} /></a>
           </div>
@@ -601,12 +556,12 @@ export default function App() {
                     {group.modules.map((module, index) => {
                       const Icon = module.icon
                       return (
-                        <a className="module-card" href={module.href} key={module.title}>
+                        <article className="module-card" key={module.title}>
                           <div className="module-card-top"><span className="module-number">{String(index + 1).padStart(2, '0')}</span><Icon size={18} /></div>
                           <h4>{module.title}</h4>
                           <p>{module.description}</p>
-                          <span className="module-card-link">Explore <ExternalArrow /></span>
-                        </a>
+                          <span className="module-card-link"><Check size={14} /> Included in the platform</span>
+                        </article>
                       )
                     })}
                   </div>
@@ -622,7 +577,7 @@ export default function App() {
               <SectionHeading
                 eyebrow="Inside Fennec"
                 title={<>Software that shows its work.</>}
-                description="These are real product screens from the Fennec OS — not abstract dashboards. Click through to explore each module."
+                description="These are real product screens from the Fennec OS — not abstract dashboards. Full frames, exactly as the team sees them on shift."
               />
               <a className="text-link text-link-large" href="#platform">See all modules <ArrowRight size={15} /></a>
             </div>
@@ -646,7 +601,7 @@ export default function App() {
             <div className="integration-list" aria-label="Fennec integrations">
               {['Square', 'Toast', 'Lightspeed', 'Eventbrite', 'Showpass', 'Ora', 'TicketWeb', 'POSH', 'Flite City', 'Tixr', 'Laylo', 'Meta Pixel', 'Apple Wallet', 'Google Wallet'].map((name) => <span key={name}>{name}</span>)}
             </div>
-            <div className="integration-footnote"><span className="live-dot" /> POS, ticketing, CRM, marketing and Wallet stay in sync. <a href="#integrations">See integrations <ArrowRight size={15} /></a></div>
+            <div className="integration-footnote"><span className="live-dot" /> POS, ticketing, CRM, marketing and Wallet stay in sync. <span className="integration-note-action">14 connected surfaces</span></div>
           </div>
         </section>
 
@@ -707,7 +662,7 @@ export default function App() {
                 <h2>Ferry the AI Fennec Fox</h2>
                 <p className="ferry-tagline">A coordinated AI fox network that runs the night with you.</p>
                 <p>Ferry is the command intelligence layer for Fennec — a blue lead agent coordinating specialist venue agents across floor ops, guests, campaigns, inventory and service in one live system.</p>
-                <div className="ferry-actions"><a className="button button-light" href="#ferry">Meet Ferry <ArrowRight size={16} /></a><a className="button button-outline-light" href="#waitlist"><Play size={15} /> Get early access</a></div>
+                <div className="ferry-actions"><a className="button button-light" href="#contact">Talk to the team about Ferry <ArrowRight size={16} /></a><a className="button button-outline-light" href="#waitlist"><Play size={15} /> Get early access</a></div>
               </div>
             </div>
 
@@ -738,14 +693,16 @@ export default function App() {
                 <div className="guest-module-list">
                   {guestModules.map((module) => {
                     const Icon = module.icon
-                    return <a href={module.href} className="guest-module" key={module.title}><span className="guest-module-icon"><Icon size={18} /></span><span><strong>{module.title}</strong><small>{module.description}</small></span><ExternalArrow /></a>
+                    return <div className="guest-module" key={module.title}><span className="guest-module-icon"><Icon size={18} /></span><span><strong>{module.title}</strong><small>{module.description}</small></span><Check size={15} /></div>
                   })}
                 </div>
               </div>
-              <Screenshot image={image('hero-loyalty.jpg')} alt="Fennec Pass and loyalty dashboard screenshot" label="The Fennec Pass" title="One pass, every door." description="Tickets, table bookings, loyalty tiers and perks across every Fennec venue, in Apple and Google Wallet." href="#guests" />
+              <Screenshot image={image('hero-loyalty.jpg')} alt="Fennec Pass and loyalty dashboard screenshot" label="The Fennec Pass" title="One pass, every door." description="Tickets, table bookings, loyalty tiers and perks across every Fennec venue, in Apple and Google Wallet." />
             </div>
           </div>
         </section>
+
+        <TeamContact />
 
         <section id="waitlist" className="waitlist-section">
           <div className="waitlist-rings" />

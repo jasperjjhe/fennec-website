@@ -1397,6 +1397,277 @@ button {
   align-self: center;
 }
 
+.team-section {
+  background: #0c1323;
+  border-top: 1px solid rgba(97, 117, 153, 0.22);
+}
+
+.team-heading-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.62fr);
+  align-items: end;
+  gap: 60px;
+  margin-bottom: 62px;
+}
+
+.team-heading-row h2,
+.contact-copy h2 {
+  margin: 0;
+  color: var(--cream);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(42px, 5.3vw, 68px);
+  font-weight: 500;
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+}
+
+.team-heading-row h2 span,
+.contact-copy h2 span {
+  color: var(--gold);
+}
+
+.team-heading-row > p {
+  max-width: 360px;
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.team-section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin: 49px 0 17px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--navy-700);
+  color: var(--quiet);
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.team-section-heading .eyebrow {
+  margin: 0;
+}
+
+.team-leadership-grid,
+.team-grid,
+.team-advisor-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.team-leadership-grid,
+.team-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.team-advisor-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.team-person-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(97, 117, 153, 0.36);
+  border-radius: 9px;
+  background: rgba(16, 24, 42, 0.72);
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.team-person-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(224, 177, 72, 0.55);
+  background: rgba(23, 35, 58, 0.92);
+}
+
+.team-person-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(97, 117, 153, 0.26);
+  background: #080d1b;
+}
+
+.team-person-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.team-person-copy {
+  padding: 19px 19px 21px;
+}
+
+.team-person-copy .eyebrow {
+  margin-bottom: 8px;
+}
+
+.team-person-copy h3 {
+  margin: 0;
+  color: var(--cream);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.team-person-copy p {
+  margin: 10px 0 0;
+  color: var(--quiet);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.team-person-copy .team-person-title {
+  margin-top: 5px;
+  color: var(--gold-soft);
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.contact-section {
+  padding: 108px 0 116px;
+  border-top: 1px solid rgba(97, 117, 153, 0.22);
+  background: #070d20;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(350px, 0.78fr);
+  align-items: center;
+  gap: 80px;
+}
+
+.contact-copy h2 {
+  font-size: clamp(41px, 5.1vw, 65px);
+}
+
+.contact-copy > p {
+  max-width: 510px;
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.contact-facts {
+  display: grid;
+  max-width: 470px;
+  margin-top: 37px;
+  border-top: 1px solid rgba(111, 132, 189, 0.28);
+}
+
+.contact-facts a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(111, 132, 189, 0.28);
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: color 180ms ease, padding 180ms ease;
+}
+
+.contact-facts a:hover {
+  padding-left: 5px;
+  color: var(--cream);
+}
+
+.contact-facts a span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gold-soft);
+}
+
+.contact-facts a > svg {
+  color: var(--gold);
+}
+
+.contact-card {
+  padding: 33px;
+  border: 1px solid rgba(165, 183, 255, 0.31);
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgba(28, 47, 93, 0.85), rgba(16, 24, 42, 0.92));
+  box-shadow: 0 24px 58px rgba(0, 0, 0, 0.22);
+}
+
+.contact-card .eyebrow {
+  color: var(--blue);
+}
+
+.contact-card h3 {
+  margin: 0;
+  color: var(--cream);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 1.02;
+}
+
+.contact-card > p {
+  max-width: 390px;
+  margin: 14px 0 25px;
+  color: #b7c2dc;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.contact-card > .button {
+  width: 100%;
+}
+
+.contact-socials {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 29px;
+  padding-top: 19px;
+  border-top: 1px solid rgba(165, 183, 255, 0.2);
+  color: var(--quiet);
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-socials span {
+  margin-right: auto;
+}
+
+.contact-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(165, 183, 255, 0.25);
+  border-radius: 5px;
+  color: #b7c2dc;
+  transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.contact-socials a:hover {
+  border-color: rgba(224, 177, 72, 0.62);
+  background: rgba(224, 177, 72, 0.1);
+  color: var(--gold-soft);
+}
+
 .waitlist-section {
   position: relative;
   overflow: hidden;
@@ -1760,7 +2031,9 @@ button {
 
   .hero-layout,
   .guest-layout,
-  .waitlist-layout {
+  .waitlist-layout,
+  .team-heading-row,
+  .contact-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1835,6 +2108,16 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .team-leadership-grid,
+  .team-grid,
+  .team-advisor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-layout {
+    gap: 48px;
+  }
+
   .waitlist-layout {
     gap: 48px;
   }
@@ -1872,6 +2155,31 @@ button {
 
   .hero-copy h1 {
     font-size: clamp(43px, 13vw, 61px);
+  }
+
+  .team-leadership-grid,
+  .team-grid,
+  .team-advisor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-heading-row {
+    gap: 24px;
+    margin-bottom: 44px;
+  }
+
+  .team-section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .contact-section {
+    padding: 86px 0;
+  }
+
+  .contact-card {
+    padding: 24px 19px;
   }
 
   .hero-lede {
