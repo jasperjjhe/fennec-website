@@ -43,10 +43,10 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://app.fennecapp.com/"
+              href="#waitlist"
               className="text-sm text-text-secondary hover:text-text-primary transition-colors"
             >
-              Log in
+              Join the waitlist
             </a>
             <a
               href="https://cal.com/vishaldesh/product-demo"
@@ -87,10 +87,10 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="https://app.fennecapp.com/"
+                href="#waitlist"
                 className="block text-sm text-text-secondary hover:text-text-primary"
               >
-                Log in
+                Join the waitlist
               </a>
               <a
                 href="https://cal.com/vishaldesh/product-demo"

@@ -58,103 +58,103 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Floor plan editor',
         description: 'Design, version and activate floor layouts with live minimums and VIP zones.',
-        href: 'https://www.fennecapp.com/product/floor-plans',
+        href: '#platform',
         icon: Layout,
       },
       {
         title: 'Live event ops',
         description: 'Guestlists, table statuses and seat assignments on one synced canvas.',
-        href: 'https://www.fennecapp.com/product/live-ops',
+        href: '#platform',
         icon: Activity,
       },
       {
         title: 'Bottle service',
         description: 'Packages, deposits, runners and a complete tableside order history.',
-        href: 'https://www.fennecapp.com/product/bottle-service',
+        href: '#platform',
         icon: Wine,
       },
       {
         title: 'Guestlist & ticketing',
         description: 'Sell tickets, import lists and check guests in with an offline-ready scanner.',
-        href: 'https://www.fennecapp.com/product/ticketing',
+        href: '#platform',
         icon: TicketPercent,
       },
       {
         title: 'Promoter portal',
         description: 'Trackable links, guestlists, deposits and live commission tracking.',
-        href: 'https://www.fennecapp.com/product/promoters',
+        href: '#platform',
         icon: Share2,
       },
       {
         title: 'Guest CRM',
         description: 'Unified profiles with lifetime spend, preferences and smart segments.',
-        href: 'https://www.fennecapp.com/product/crm',
+        href: '#platform',
         icon: Heart,
       },
       {
         title: 'Automations & comms',
         description: 'Trigger SMS, WhatsApp and email flows from any signal in your venue.',
-        href: 'https://www.fennecapp.com/product/automations',
+        href: '#platform',
         icon: MessageSquare,
       },
       {
         title: 'Reports & analytics',
         description: 'Revenue, attendance, table turnover and promoter performance, exportable.',
-        href: 'https://www.fennecapp.com/product/analytics',
+        href: '#platform',
         icon: BarChart3,
       },
       {
         title: 'Coat Check Management',
         description: 'QR receipts, photo capture and per-guest claim history for a clean rack.',
-        href: 'https://www.fennecapp.com/product/coat-check',
+        href: '#platform',
         icon: Package,
       },
       {
         title: 'Bar Management',
         description: 'Bar-by-bar velocity, staffing and live ticket queues in one console.',
-        href: 'https://www.fennecapp.com/product/bar-management',
+        href: '#platform',
         icon: Building2,
       },
       {
         title: 'Host Events',
         description: 'Build the event, set hold strategies and run the room from one war room.',
-        href: 'https://www.fennecapp.com/product/host-events',
+        href: '#platform',
         icon: Calendar,
       },
       {
         title: 'Guest Management',
         description: 'RSVPs, comps, plus-ones and birthdays with full history attached.',
-        href: 'https://www.fennecapp.com/product/guest-management',
+        href: '#platform',
         icon: Users,
       },
       {
         title: 'Staff Management',
         description: 'Schedules, clock-in, role permissions and tip distribution on one roster.',
-        href: 'https://www.fennecapp.com/product/staff-management',
+        href: '#platform',
         icon: UserCog,
       },
       {
         title: 'Universal Loyalty',
         description: 'Tiers, points and perks that work across every floor and venue in your group.',
-        href: 'https://www.fennecapp.com/product/loyalty',
+        href: '#platform',
         icon: Star,
       },
       {
         title: 'POS integration',
         description: 'Square, Toast and Lightspeed synced with tickets, tabs and tips.',
-        href: 'https://www.fennecapp.com/product/pos-integration',
+        href: '#platform',
         icon: CreditCard,
       },
       {
         title: 'Table Management',
         description: 'Live status, spend, server assignments and turn-time tracking in one tap.',
-        href: 'https://www.fennecapp.com/product/table-management',
+        href: '#platform',
         icon: Layout,
       },
       {
         title: 'Ticketing integrations',
         description: 'Eventbrite, Showpass, Ora, TicketWeb, POSH, Flite City and Tixr.',
-        href: 'https://www.fennecapp.com/product/ticketing-integrations',
+        href: '#platform',
         icon: Globe,
       },
     ],
@@ -166,31 +166,31 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Laylo audience sync',
         description: 'Mirror consented guests, RSVPs and opt-outs between Laylo and Fennec.',
-        href: 'https://www.fennecapp.com/product/laylo',
+        href: '#platform',
         icon: Share2,
       },
       {
         title: 'Meta Pixel & marketing analytics',
         description: 'See which ad filled the room with funnel, spend and return per event.',
-        href: 'https://www.fennecapp.com/product/marketing-analytics',
+        href: '#platform',
         icon: Target,
       },
       {
         title: 'Auto Social Media',
         description: 'Schedule Instagram, TikTok and X posts from the event calendar.',
-        href: 'https://www.fennecapp.com/product/social',
+        href: '#platform',
         icon: Zap,
       },
       {
         title: 'Event Poster Designer',
         description: 'Generate on-brand flyers and stories ready for print, social and Wallet.',
-        href: 'https://www.fennecapp.com/product/event-poster',
+        href: '#platform',
         icon: Sparkles,
       },
       {
         title: 'Drink Campaigns',
         description: 'Push time-boxed promos to staff, menus and social in one shot.',
-        href: 'https://www.fennecapp.com/product/drink-campaigns',
+        href: '#platform',
         icon: Percent,
       },
     ],
@@ -202,31 +202,31 @@ const productGroups: ProductGroup[] = [
       {
         title: 'Inventory Dashboard',
         description: 'Live counts, par levels, reorder points and waste flags across every bar.',
-        href: 'https://www.fennecapp.com/product/inventory-dashboard',
+        href: '#platform',
         icon: Package,
       },
       {
         title: 'Live Menu Management',
         description: 'Edit once, push everywhere and auto-86 items as stock runs out.',
-        href: 'https://www.fennecapp.com/product/live-menu',
+        href: '#platform',
         icon: Wallet,
       },
       {
         title: 'Stock Room Inventory',
         description: 'Scan-to-count, vendor PO history and variance reconciliation on your phone.',
-        href: 'https://www.fennecapp.com/product/stock-room',
+        href: '#platform',
         icon: Search,
       },
       {
         title: 'In-Bar Inventory',
         description: 'Running bottle and keg counts with one-tap transfers and a full audit trail.',
-        href: 'https://www.fennecapp.com/product/in-bar-inventory',
+        href: '#platform',
         icon: Building2,
       },
       {
         title: 'Revenue Loss Calculator',
         description: 'Reconcile pours versus sales and dollarise every variance you find.',
-        href: 'https://www.fennecapp.com/product/revenue-loss',
+        href: '#platform',
         icon: BarChart3,
       },
     ],
@@ -237,19 +237,19 @@ const guestModules: ProductModule[] = [
   {
     title: 'Discover Events',
     description: 'A guest-facing feed of every event across the Fennec network.',
-    href: 'https://www.fennecapp.com/product/discover-events',
+    href: '#guests',
     icon: Globe,
   },
   {
     title: 'Live Ordering',
     description: 'Guests scan their table, browse the live menu and order straight to their tab.',
-    href: 'https://www.fennecapp.com/product/live-ordering',
+    href: '#guests',
     icon: Wine,
   },
   {
     title: 'The Fennec Pass',
     description: 'One nightlife identity for tickets, tables, loyalty tiers and perks.',
-    href: 'https://www.fennecapp.com/product/fennec-pass',
+    href: '#guests',
     icon: Wallet,
   },
 ]
@@ -362,7 +362,7 @@ const gallery = [
     description: 'Table reservations, live status, arrivals and revenue without switching tools.',
     image: image('hero-tables-live.jpg'),
     alt: 'Fennec live event table dashboard screenshot',
-    href: 'https://www.fennecapp.com/product/live-ops',
+    href: '#proof',
   },
   {
     label: 'Guestlist & ticketing',
@@ -370,7 +370,7 @@ const gallery = [
     description: 'Tickets, guestlists and offline-ready check-in built for the rush.',
     image: image('hero-ticketing.jpg'),
     alt: 'Fennec ticketing and check-in dashboard screenshot',
-    href: 'https://www.fennecapp.com/product/ticketing',
+    href: '#proof',
   },
   {
     label: 'Promoters',
@@ -378,7 +378,7 @@ const gallery = [
     description: 'Personal links, commissions and guestlists with nothing to reconcile by hand.',
     image: image('hero-promoters.jpg'),
     alt: 'Fennec promoter portal screenshot',
-    href: 'https://www.fennecapp.com/product/promoters',
+    href: '#proof',
   },
   {
     label: 'Inventory',
@@ -386,7 +386,7 @@ const gallery = [
     description: 'Counts, reorder points and variance flags across every bar and storage room.',
     image: image('hero-inventory.jpg'),
     alt: 'Fennec inventory dashboard screenshot',
-    href: 'https://www.fennecapp.com/product/inventory-dashboard',
+    href: '#proof',
   },
   {
     label: 'Guest CRM',
@@ -394,7 +394,7 @@ const gallery = [
     description: 'Spend history, preferences and segments that stay connected to every visit.',
     image: image('hero-crm.jpg'),
     alt: 'Fennec guest CRM screenshot',
-    href: 'https://www.fennecapp.com/product/crm',
+    href: '#proof',
   },
   {
     label: 'Ferry AI',
@@ -402,7 +402,7 @@ const gallery = [
     description: 'A command layer for floor ops, guests, campaigns, inventory and service.',
     image: image('hero-ferry.jpg'),
     alt: 'Fennec Ferry AI product screenshot',
-    href: 'https://www.fennecapp.com/product/ferry-ai',
+    href: '#ferry',
   },
 ]
 
@@ -455,7 +455,7 @@ function Screenshot({
   return (
     <figure className={`screenshot-card ${className}`}>
       {href ? (
-        <a href={href} target="_blank" rel="noopener noreferrer" className="screenshot-link">
+        <a href={href} className="screenshot-link">
           {content}
         </a>
       ) : content}
@@ -497,11 +497,11 @@ export default function App() {
             <a href="#proof">Screenshots</a>
             <a href="#roles">The shift</a>
             <a href="#ferry">Ferry AI</a>
-            <a href="https://www.fennecapp.com/docs" target="_blank" rel="noopener noreferrer">Docs <ExternalArrow /></a>
+            <a href="#platform">All modules <ArrowRight size={15} /></a>
           </nav>
 
           <div className="header-actions">
-            <a className="header-login" href="https://app.fennecapp.com/" target="_blank" rel="noopener noreferrer">Login</a>
+            <a className="header-login" href="#waitlist">Join the waitlist</a>
             <a className="button button-small button-light" href={demoHref} target="_blank" rel="noopener noreferrer">Book a demo <ArrowRight size={15} /></a>
           </div>
 
@@ -517,8 +517,8 @@ export default function App() {
             <a href="#proof" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Screenshots</a>
             <a href="#roles" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>The shift</a>
             <a href="#ferry" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Ferry AI</a>
-            <a href="https://www.fennecapp.com/docs" target="_blank" rel="noopener noreferrer" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Docs <ExternalArrow /></a>
-            <a href="https://app.fennecapp.com/" target="_blank" rel="noopener noreferrer" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Login</a>
+            <a href="#platform" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>All modules <ArrowRight size={15} /></a>
+            <a href="#waitlist" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Join the waitlist</a>
             <a className="button button-light" href={demoHref} target="_blank" rel="noopener noreferrer" onClick={(event) => event.currentTarget.parentElement?.classList.remove('mobile-nav-open')}>Book a demo <ArrowRight size={15} /></a>
           </div>
         </div>
@@ -601,7 +601,7 @@ export default function App() {
                     {group.modules.map((module, index) => {
                       const Icon = module.icon
                       return (
-                        <a className="module-card" href={module.href} target="_blank" rel="noopener noreferrer" key={module.title}>
+                        <a className="module-card" href={module.href} key={module.title}>
                           <div className="module-card-top"><span className="module-number">{String(index + 1).padStart(2, '0')}</span><Icon size={18} /></div>
                           <h4>{module.title}</h4>
                           <p>{module.description}</p>
@@ -624,7 +624,7 @@ export default function App() {
                 title={<>Software that shows its work.</>}
                 description="These are real product screens from the Fennec OS — not abstract dashboards. Click through to explore each module."
               />
-              <a className="text-link text-link-large" href="https://www.fennecapp.com/#platform" target="_blank" rel="noopener noreferrer">Explore Fennec <ExternalArrow /></a>
+              <a className="text-link text-link-large" href="#platform">See all modules <ArrowRight size={15} /></a>
             </div>
             <div className="gallery-grid">
               {gallery.map((item, index) => (
@@ -646,7 +646,7 @@ export default function App() {
             <div className="integration-list" aria-label="Fennec integrations">
               {['Square', 'Toast', 'Lightspeed', 'Eventbrite', 'Showpass', 'Ora', 'TicketWeb', 'POSH', 'Flite City', 'Tixr', 'Laylo', 'Meta Pixel', 'Apple Wallet', 'Google Wallet'].map((name) => <span key={name}>{name}</span>)}
             </div>
-            <div className="integration-footnote"><span className="live-dot" /> POS, ticketing, CRM, marketing and Wallet stay in sync. <a href="https://www.fennecapp.com/product/ticketing-integrations" target="_blank" rel="noopener noreferrer">See integrations <ExternalArrow /></a></div>
+            <div className="integration-footnote"><span className="live-dot" /> POS, ticketing, CRM, marketing and Wallet stay in sync. <a href="#integrations">See integrations <ArrowRight size={15} /></a></div>
           </div>
         </section>
 
@@ -707,7 +707,7 @@ export default function App() {
                 <h2>Ferry the AI Fennec Fox</h2>
                 <p className="ferry-tagline">A coordinated AI fox network that runs the night with you.</p>
                 <p>Ferry is the command intelligence layer for Fennec — a blue lead agent coordinating specialist venue agents across floor ops, guests, campaigns, inventory and service in one live system.</p>
-                <div className="ferry-actions"><a className="button button-light" href="https://www.fennecapp.com/product/ferry-ai" target="_blank" rel="noopener noreferrer">Meet Ferry <ArrowRight size={16} /></a><a className="button button-outline-light" href="https://www.fennecapp.com/demo/ferry-ai" target="_blank" rel="noopener noreferrer"><Play size={15} /> Try the sandbox</a></div>
+                <div className="ferry-actions"><a className="button button-light" href="#ferry">Meet Ferry <ArrowRight size={16} /></a><a className="button button-outline-light" href="#waitlist"><Play size={15} /> Get early access</a></div>
               </div>
             </div>
 
@@ -738,11 +738,11 @@ export default function App() {
                 <div className="guest-module-list">
                   {guestModules.map((module) => {
                     const Icon = module.icon
-                    return <a href={module.href} target="_blank" rel="noopener noreferrer" className="guest-module" key={module.title}><span className="guest-module-icon"><Icon size={18} /></span><span><strong>{module.title}</strong><small>{module.description}</small></span><ExternalArrow /></a>
+                    return <a href={module.href} className="guest-module" key={module.title}><span className="guest-module-icon"><Icon size={18} /></span><span><strong>{module.title}</strong><small>{module.description}</small></span><ExternalArrow /></a>
                   })}
                 </div>
               </div>
-              <Screenshot image={image('hero-loyalty.jpg')} alt="Fennec Pass and loyalty dashboard screenshot" label="The Fennec Pass" title="One pass, every door." description="Tickets, table bookings, loyalty tiers and perks across every Fennec venue, in Apple and Google Wallet." href="https://www.fennecapp.com/product/fennec-pass" />
+              <Screenshot image={image('hero-loyalty.jpg')} alt="Fennec Pass and loyalty dashboard screenshot" label="The Fennec Pass" title="One pass, every door." description="Tickets, table bookings, loyalty tiers and perks across every Fennec venue, in Apple and Google Wallet." href="#guests" />
             </div>
           </div>
         </section>
