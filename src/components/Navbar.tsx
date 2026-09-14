@@ -43,7 +43,7 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://fennecapp.com/login"
+              href="https://app.fennecapp.com/"
               className="text-sm text-text-secondary hover:text-text-primary transition-colors"
             >
               Log in
@@ -87,7 +87,7 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="https://fennecapp.com/login"
+                href="https://app.fennecapp.com/"
                 className="block text-sm text-text-secondary hover:text-text-primary"
               >
                 Log in
